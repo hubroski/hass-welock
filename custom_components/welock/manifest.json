@@ -1,0 +1,14 @@
+{
+  "domain": "welock",
+  "name": "WeLock",
+  "codeowners": [
+    "@welock"
+  ],
+  "config_flow": true,
+  "dependencies": ["application_credentials"],
+  "documentation": "https://github.com/hzjchina/hass-welock",
+  "issue_tracker": "https://github.com/hzjchina/hass-welock/issues",
+  "iot_class": "cloud_push",
+  "requirements": ["welock-iot==0.0.1"],
+  "version": "1.0.0"
+}
