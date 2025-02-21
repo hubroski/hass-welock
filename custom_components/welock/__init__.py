@@ -15,6 +15,7 @@ from homeassistant.core import HomeAssistant, callback
 from homeassistant.helpers import (
     aiohttp_client,
     config_entry_oauth2_flow,
+    config_validation as cv,
     device_registry as dr,
 )
 from homeassistant.helpers.dispatcher import dispatcher_send
@@ -22,6 +23,8 @@ from homeassistant.helpers.typing import ConfigType
 
 from . import api
 from .const import DOMAIN, WELOCK_DEVICE_DISCOVER, WELOCK_DEVICE_UPDATE
+
+CONFIG_SCHEMA = cv.empty_config_schema(DOMAIN)
 
 PLATFORMS: list[Platform] = [
     Platform.BINARY_SENSOR,
