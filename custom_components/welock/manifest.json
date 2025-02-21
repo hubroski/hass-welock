@@ -2,7 +2,7 @@
   "domain": "welock",
   "name": "WeLock",
   "codeowners": [
-    "@welock"
+    "@hzjchina"
   ],
   "config_flow": true,
   "dependencies": ["application_credentials"],
