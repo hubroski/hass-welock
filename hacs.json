@@ -1,6 +1,5 @@
 {
   "name": "WeLock",
-  "render_readme": true,
-  "zip_release": true,
-  "filename": "welock.zip"
+  "homeassistant": "2023.3.0",
+  "hacs": "2.0.0"
 }
